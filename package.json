@@ -9,10 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
     "expo": "~47.0.9",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-canvas": "^0.1.38"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
